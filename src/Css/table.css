@@ -1,0 +1,54 @@
+#main {
+  margin: auto;
+  text-align: center;
+  width: fit-content;
+}
+#tble,
+.heading,
+.data {
+  border-style: solid;
+  border-collapse: collapse;
+  padding: 0.2em;
+}
+.data > button {
+  float: right;
+  margin-left: 1em;
+  border-style: hidden;
+  font-style: italic;
+  background-color: white;
+  font-size: xx-small;
+}
+.holder {
+  margin-left: 5vw;
+  padding: 0.5em;
+  text-align: center;
+  font-style: italic;
+}
+.each {
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+  border-style: solid;
+  margin: 1em;
+  padding: 1em;
+  font-size: larger;
+}
+.frm {
+  margin-left: 10vw;
+  display: inline-block;
+  width: 75vw;
+}
+label {
+  padding: 0.8em;
+  font-size: large;
+  font-weight: bold;
+  display: inline-block;
+}
+input {
+  margin: 0.5em;
+  float: right;
+}
+button {
+  margin: auto;
+  display: block;
+}
