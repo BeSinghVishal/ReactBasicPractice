@@ -32,7 +32,7 @@ function ChildLevel3() {
   return (
     <div>
       This Value is accessed from ChildLevel3 component within Display and
-      answer is {value}.
+      answer is {value}
     </div>
   );
 }

@@ -8,10 +8,11 @@ import Err from "./Components/Error";
 import Api from "./Components/Api";
 import Grid from "./Components/gridTable";
 
-// import "./Css/Formstyle.css";
+import "./Css/Formstyle.css";
 import { Switch, Route } from "react-router-dom";
 import ParentFunction from "./Components/HooksPractice/FunctionalComp1";
 import Basecomp from "./Components/HooksPractice/UsingContext";
+import Parent from "./Components/HooksPractice/usememo_useCalllback";
 const Chart = React.lazy(() => import("./Components/Amchart"));
 class App extends Component {
   // ref_table = React.createRef();
@@ -25,9 +26,9 @@ class App extends Component {
     return (
       <section>
         {/* <ParentFunction /> */}
-        <Basecomp />
+        {/* <Basecomp /> */}
         {/* <Grid /> */}
-
+        <Parent />
         {/* <Counter /> */}
         {/* <Cook/> */}
         {/* <Nav /> */}
